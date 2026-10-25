@@ -1,0 +1,51 @@
+name: Verify StellarOS releases
+
+on:
+  schedule:
+    - cron: "17 */12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: release-integrity
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Verify published files
+        id: verify
+        continue-on-error: true
+        run: python3 verify_release_integrity.py 2>&1 | tee verification.log
+
+      - name: Open or update an alert issue
+        if: steps.verify.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="Release integrity verification failed"
+          body_file="$(mktemp)"
+          {
+            echo "The scheduled integrity check failed in [workflow run $GITHUB_RUN_NUMBER]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID)."
+            echo
+            echo '```text'
+            tail -c 12000 verification.log
+            echo '```'
+          } > "$body_file"
+          issue="$(gh issue list --state open --search \"$title in:title\" --json number --jq '.[0].number // empty')"
+          if [ -n "$issue" ]; then
+            gh issue comment "$issue" --body-file "$body_file"
+          else
+            gh issue create --title "$title" --body-file "$body_file"
+          fi
+
+      - name: Fail the workflow when verification failed
+        if: steps.verify.outcome == 'failure'
+        run: exit 1
