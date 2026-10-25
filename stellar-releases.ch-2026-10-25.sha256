@@ -1,0 +1,9 @@
+# StellarOS release hosting integrity anchor
+# Origin: https://stellar-releases.ch/
+# Source baseline: work/hostpoint-migration/trusted-site-baseline.json
+# Baseline schema: 1
+# Release files covered: 83
+# Site files covered: 8
+# This hash identifies the complete trusted baseline. Verify with:
+#   sha256sum trusted-site-baseline.json
+41110414c70b563b2f2bdca3a0f2f29ed290a91e41066c547ac61529c408b5e0  trusted-site-baseline.json
