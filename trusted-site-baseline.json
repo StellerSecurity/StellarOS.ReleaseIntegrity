@@ -1,0 +1,455 @@
+{
+  "origin": "https://stellar-releases.ch/",
+  "release_files": [
+    {
+      "sha256": "a512417702e4deec9d3a1dd8d50efce5494a8dcea61922ef782cd45c157d9566",
+      "size": 3940282143,
+      "url": "https://stellar-releases.ch/stellaros-tokay-release-2026-10-22-r1/StellarOS-tokay-release-2026-10-22-r1.zip"
+    },
+    {
+      "sha256": "c7c5599632f88812fc297e8e64f5739631938eb952394f687320abeff493c88a",
+      "size": 19241000,
+      "url": "https://stellar-releases.ch/stellaros-tokay-release-2026-10-22-r1/firmware/bootloader.img"
+    },
+    {
+      "sha256": "eb256a7362fcb5277f6a71e91798494ab1cc22525598d86c477c8e5d5b73ac51",
+      "size": 136695948,
+      "url": "https://stellar-releases.ch/stellaros-tokay-release-2026-10-22-r1/firmware/radio.img"
+    },
+    {
+      "sha256": "e721b5827fcb1a6496eafd71dcaa669771f3188afc489b7308a7a9f692c54a40",
+      "size": 1032,
+      "url": "https://stellar-releases.ch/stellaros-tokay-release-2026-10-22-r1/avb_pkmd.bin"
+    },
+    {
+      "sha256": "cb5dff9f1d4df7192e27df8c0aad489bd11714b3886c4eb9d5e13c09666f9d5f",
+      "size": 3946301446,
+      "url": "https://stellar-releases.ch/stellaros-caiman-release-2026-10-22-r1/StellarOS-caiman-release-2026-10-22-r1.zip"
+    },
+    {
+      "sha256": "c7c5599632f88812fc297e8e64f5739631938eb952394f687320abeff493c88a",
+      "size": 19241000,
+      "url": "https://stellar-releases.ch/stellaros-caiman-release-2026-10-22-r1/firmware/bootloader.img"
+    },
+    {
+      "sha256": "eb256a7362fcb5277f6a71e91798494ab1cc22525598d86c477c8e5d5b73ac51",
+      "size": 136695948,
+      "url": "https://stellar-releases.ch/stellaros-caiman-release-2026-10-22-r1/firmware/radio.img"
+    },
+    {
+      "sha256": "e721b5827fcb1a6496eafd71dcaa669771f3188afc489b7308a7a9f692c54a40",
+      "size": 1032,
+      "url": "https://stellar-releases.ch/stellaros-caiman-release-2026-10-22-r1/avb_pkmd.bin"
+    },
+    {
+      "sha256": "6d2f922832d89498a8b7e0b163e400f4ce86fb1a337d76c2c6e0bf41c59cfa14",
+      "size": 3814453667,
+      "url": "https://stellar-releases.ch/stellaros-tegu-release-2026-10-22-r1/StellarOS-tegu-release-2026-10-22-r1.zip"
+    },
+    {
+      "sha256": "9f6599d980a536504e3d551d6cd5ebe886352affc494d7d399b6a785a4ae0675",
+      "size": 19241000,
+      "url": "https://stellar-releases.ch/stellaros-tegu-release-2026-10-22-r1/firmware/bootloader.img"
+    },
+    {
+      "sha256": "f67042883998e2079aafcddc0aeaae6064dc7278c1b73877fe223e00edcc5702",
+      "size": 98807948,
+      "url": "https://stellar-releases.ch/stellaros-tegu-release-2026-10-22-r1/firmware/radio.img"
+    },
+    {
+      "sha256": "e721b5827fcb1a6496eafd71dcaa669771f3188afc489b7308a7a9f692c54a40",
+      "size": 1032,
+      "url": "https://stellar-releases.ch/stellaros-tegu-release-2026-10-22-r1/avb_pkmd.bin"
+    },
+    {
+      "sha256": "8efdb9871890c92fa385d8da24900aed045fcb1d959a3edc6dc82466c24b627b",
+      "size": 3948026608,
+      "url": "https://stellar-releases.ch/stellaros-komodo-release-2026-10-22-r1/StellarOS-komodo-release-2026-10-22-r1.zip"
+    },
+    {
+      "sha256": "c7c5599632f88812fc297e8e64f5739631938eb952394f687320abeff493c88a",
+      "size": 19241000,
+      "url": "https://stellar-releases.ch/stellaros-komodo-release-2026-10-22-r1/firmware/bootloader.img"
+    },
+    {
+      "sha256": "eb256a7362fcb5277f6a71e91798494ab1cc22525598d86c477c8e5d5b73ac51",
+      "size": 136695948,
+      "url": "https://stellar-releases.ch/stellaros-komodo-release-2026-10-22-r1/firmware/radio.img"
+    },
+    {
+      "sha256": "e721b5827fcb1a6496eafd71dcaa669771f3188afc489b7308a7a9f692c54a40",
+      "size": 1032,
+      "url": "https://stellar-releases.ch/stellaros-komodo-release-2026-10-22-r1/avb_pkmd.bin"
+    },
+    {
+      "sha256": "0d711985d9b821139800058bc7d559e1085e8c686b3a041ef952fcd755680e3c",
+      "size": 3999007625,
+      "url": "https://stellar-releases.ch/stellaros-mustang-release-2026-10-22-r1/StellarOS-mustang-release-2026-10-22-r1.zip"
+    },
+    {
+      "sha256": "23d7fa5e9afe5a9a2a182e5aa669998ff5252e442f4c1988aa49f50ec86ff946",
+      "size": 20043164,
+      "url": "https://stellar-releases.ch/stellaros-mustang-release-2026-10-22-r1/firmware/bootloader.img"
+    },
+    {
+      "sha256": "fb9dc630e991b58f3ef5180ba33a68c0b3c91eb4568d919da95d221aed4f6f78",
+      "size": 191500428,
+      "url": "https://stellar-releases.ch/stellaros-mustang-release-2026-10-22-r1/firmware/radio.img"
+    },
+    {
+      "sha256": "e721b5827fcb1a6496eafd71dcaa669771f3188afc489b7308a7a9f692c54a40",
+      "size": 1032,
+      "url": "https://stellar-releases.ch/stellaros-mustang-release-2026-10-22-r1/avb_pkmd.bin"
+    },
+    {
+      "sha256": "c4cefdfac02e787b963cea5046dbe682810878fec2e9e632105296396488dbb1",
+      "size": 3951353426,
+      "url": "https://stellar-releases.ch/stellaros-stallion-release-2026-10-22-r1/StellarOS-stallion-release-2026-10-22-r1.zip"
+    },
+    {
+      "sha256": "a42e52ff1e1f4f99e767a85b1c67ad5921cf132db01f949efb9cc07b429b3ea7",
+      "size": 19241000,
+      "url": "https://stellar-releases.ch/stellaros-stallion-release-2026-10-22-r1/firmware/bootloader.img"
+    },
+    {
+      "sha256": "fb9dc630e991b58f3ef5180ba33a68c0b3c91eb4568d919da95d221aed4f6f78",
+      "size": 191500428,
+      "url": "https://stellar-releases.ch/stellaros-stallion-release-2026-10-22-r1/firmware/radio.img"
+    },
+    {
+      "sha256": "e721b5827fcb1a6496eafd71dcaa669771f3188afc489b7308a7a9f692c54a40",
+      "size": 1032,
+      "url": "https://stellar-releases.ch/stellaros-stallion-release-2026-10-22-r1/avb_pkmd.bin"
+    },
+    {
+      "sha256": "a9da59db3695be95de27b74fad5c28c93afdcb056401629b1674509714f3762d",
+      "size": 3796383442,
+      "url": "https://stellar-releases.ch/stellaros-shiba-release-2026-10-22-r1/StellarOS-shiba-release-2026-10-22-r1.zip"
+    },
+    {
+      "sha256": "09fb2088639bc034dcd20df38f8f51fe57124900f9bd765ca8dcce708dcdc7ef",
+      "size": 18663032,
+      "url": "https://stellar-releases.ch/stellaros-shiba-release-2026-10-22-r1/firmware/bootloader.img"
+    },
+    {
+      "sha256": "1ec9df8b11232c88c380854560657c6b7ddb7e61c7d6ef5774016a61106944e1",
+      "size": 113082508,
+      "url": "https://stellar-releases.ch/stellaros-shiba-release-2026-10-22-r1/firmware/radio.img"
+    },
+    {
+      "sha256": "e721b5827fcb1a6496eafd71dcaa669771f3188afc489b7308a7a9f692c54a40",
+      "size": 1032,
+      "url": "https://stellar-releases.ch/stellaros-shiba-release-2026-10-22-r1/avb_pkmd.bin"
+    },
+    {
+      "sha256": "da5917038b7343011a14903e2eb0505bf11d65c93cd5a752bd8ae4df4a6e456d",
+      "size": 3805879835,
+      "url": "https://stellar-releases.ch/stellaros-husky-release-2026-10-22-r1/StellarOS-husky-release-2026-10-22-r1.zip"
+    },
+    {
+      "sha256": "09fb2088639bc034dcd20df38f8f51fe57124900f9bd765ca8dcce708dcdc7ef",
+      "size": 18663032,
+      "url": "https://stellar-releases.ch/stellaros-husky-release-2026-10-22-r1/firmware/bootloader.img"
+    },
+    {
+      "sha256": "1ec9df8b11232c88c380854560657c6b7ddb7e61c7d6ef5774016a61106944e1",
+      "size": 113082508,
+      "url": "https://stellar-releases.ch/stellaros-husky-release-2026-10-22-r1/firmware/radio.img"
+    },
+    {
+      "sha256": "e721b5827fcb1a6496eafd71dcaa669771f3188afc489b7308a7a9f692c54a40",
+      "size": 1032,
+      "url": "https://stellar-releases.ch/stellaros-husky-release-2026-10-22-r1/avb_pkmd.bin"
+    },
+    {
+      "sha256": "81c10170b1dc0cb419c733ff775561cf164a297cd6cd9f0a793dc354a8632c12",
+      "size": 3787247782,
+      "url": "https://stellar-releases.ch/stellaros-akita-release-2026-10-22-r1/StellarOS-akita-release-2026-10-22-r1.zip"
+    },
+    {
+      "sha256": "2826a5338d8542bb610ddeb27fb8ef9cae86e831ac07545a4d678234a355bad8",
+      "size": 18679416,
+      "url": "https://stellar-releases.ch/stellaros-akita-release-2026-10-22-r1/firmware/bootloader.img"
+    },
+    {
+      "sha256": "bc63f8abea942ac17031f6d159f66fc65e8bce7e0de49fe182b7ebf2e59cd415",
+      "size": 115458188,
+      "url": "https://stellar-releases.ch/stellaros-akita-release-2026-10-22-r1/firmware/radio.img"
+    },
+    {
+      "sha256": "e721b5827fcb1a6496eafd71dcaa669771f3188afc489b7308a7a9f692c54a40",
+      "size": 1032,
+      "url": "https://stellar-releases.ch/stellaros-akita-release-2026-10-22-r1/avb_pkmd.bin"
+    },
+    {
+      "sha256": "abfc1800468af5932ffe9b95e0d6bd9195dbdcaaf282b695bea9c73ee95b6bb8",
+      "size": 3715203234,
+      "url": "https://stellar-releases.ch/stellaros-panther-release-2026-10-22-r1/StellarOS-panther-release-2026-10-22-r1.zip"
+    },
+    {
+      "sha256": "12cc905998b554ade331d0e3e229c0f26ce9097adfd68a29580dc300ae7d4ef1",
+      "size": 14544648,
+      "url": "https://stellar-releases.ch/stellaros-panther-release-2026-10-22-r1/firmware/bootloader.img"
+    },
+    {
+      "sha256": "313c311cc94c3b08de65b6f030e29af93c1bf2c6bff7fe8044f22dbb0296524a",
+      "size": 105955468,
+      "url": "https://stellar-releases.ch/stellaros-panther-release-2026-10-22-r1/firmware/radio.img"
+    },
+    {
+      "sha256": "e721b5827fcb1a6496eafd71dcaa669771f3188afc489b7308a7a9f692c54a40",
+      "size": 1032,
+      "url": "https://stellar-releases.ch/stellaros-panther-release-2026-10-22-r1/avb_pkmd.bin"
+    },
+    {
+      "sha256": "3cd281a314094ae0eacabbd70076125ddf25cb20780fc23ebe191ec83f9b2e0f",
+      "size": 3717189819,
+      "url": "https://stellar-releases.ch/stellaros-cheetah-release-2026-10-22-r1/StellarOS-cheetah-release-2026-10-22-r1.zip"
+    },
+    {
+      "sha256": "12cc905998b554ade331d0e3e229c0f26ce9097adfd68a29580dc300ae7d4ef1",
+      "size": 14544648,
+      "url": "https://stellar-releases.ch/stellaros-cheetah-release-2026-10-22-r1/firmware/bootloader.img"
+    },
+    {
+      "sha256": "313c311cc94c3b08de65b6f030e29af93c1bf2c6bff7fe8044f22dbb0296524a",
+      "size": 105955468,
+      "url": "https://stellar-releases.ch/stellaros-cheetah-release-2026-10-22-r1/firmware/radio.img"
+    },
+    {
+      "sha256": "e721b5827fcb1a6496eafd71dcaa669771f3188afc489b7308a7a9f692c54a40",
+      "size": 1032,
+      "url": "https://stellar-releases.ch/stellaros-cheetah-release-2026-10-22-r1/avb_pkmd.bin"
+    },
+    {
+      "sha256": "d134243bede14974700fba2d967cc53ddc1fb33be9ca9ff0df3c0b69696b5d9b",
+      "size": 3711735242,
+      "url": "https://stellar-releases.ch/stellaros-lynx-release-2026-10-22-r1/StellarOS-lynx-release-2026-10-22-r1.zip"
+    },
+    {
+      "sha256": "b605ff36fa61ebc5569bc40007040608221b773ab3e408bc1315aad4b7aa0975",
+      "size": 14511880,
+      "url": "https://stellar-releases.ch/stellaros-lynx-release-2026-10-22-r1/firmware/bootloader.img"
+    },
+    {
+      "sha256": "313c311cc94c3b08de65b6f030e29af93c1bf2c6bff7fe8044f22dbb0296524a",
+      "size": 105955468,
+      "url": "https://stellar-releases.ch/stellaros-lynx-release-2026-10-22-r1/firmware/radio.img"
+    },
+    {
+      "sha256": "e721b5827fcb1a6496eafd71dcaa669771f3188afc489b7308a7a9f692c54a40",
+      "size": 1032,
+      "url": "https://stellar-releases.ch/stellaros-lynx-release-2026-10-22-r1/avb_pkmd.bin"
+    },
+    {
+      "sha256": "89b80e5bffa50b2be29e23b54b6b093f0d2f6618a02043d00514d7350799aee4",
+      "size": 3876288488,
+      "url": "https://stellar-releases.ch/stellaros-oriole-release-2026-10-22-r1/StellarOS-oriole-release-2026-10-22-r1.zip"
+    },
+    {
+      "sha256": "d2394ebac2dc4bb53f949403087a4c29aa2065973e9de44336864d665b769895",
+      "size": 11917396,
+      "url": "https://stellar-releases.ch/stellaros-oriole-release-2026-10-22-r1/firmware/bootloader.img"
+    },
+    {
+      "sha256": "cc00eeac18982444cc2974e621ab46cd11abe4ebd3496f44c610b9c2104ab4fb",
+      "size": 97702028,
+      "url": "https://stellar-releases.ch/stellaros-oriole-release-2026-10-22-r1/firmware/radio.img"
+    },
+    {
+      "sha256": "e721b5827fcb1a6496eafd71dcaa669771f3188afc489b7308a7a9f692c54a40",
+      "size": 1032,
+      "url": "https://stellar-releases.ch/stellaros-oriole-release-2026-10-22-r1/avb_pkmd.bin"
+    },
+    {
+      "sha256": "481f4836026492ca117503c8aebe78cc5612cf4b16cffe5e03ccff1c749ed4f7",
+      "size": 3878346160,
+      "url": "https://stellar-releases.ch/stellaros-raven-release-2026-10-22-r1/StellarOS-raven-release-2026-10-22-r1.zip"
+    },
+    {
+      "sha256": "d2394ebac2dc4bb53f949403087a4c29aa2065973e9de44336864d665b769895",
+      "size": 11917396,
+      "url": "https://stellar-releases.ch/stellaros-raven-release-2026-10-22-r1/firmware/bootloader.img"
+    },
+    {
+      "sha256": "cc00eeac18982444cc2974e621ab46cd11abe4ebd3496f44c610b9c2104ab4fb",
+      "size": 97702028,
+      "url": "https://stellar-releases.ch/stellaros-raven-release-2026-10-22-r1/firmware/radio.img"
+    },
+    {
+      "sha256": "e721b5827fcb1a6496eafd71dcaa669771f3188afc489b7308a7a9f692c54a40",
+      "size": 1032,
+      "url": "https://stellar-releases.ch/stellaros-raven-release-2026-10-22-r1/avb_pkmd.bin"
+    },
+    {
+      "sha256": "6cedb2370e749b3fd8d01aa28db52264bfdc200861bf874c400950f635ba4eb5",
+      "size": 3876499958,
+      "url": "https://stellar-releases.ch/stellaros-bluejay-release-2026-10-22-r1/StellarOS-bluejay-release-2026-10-22-r1.zip"
+    },
+    {
+      "sha256": "e8fed8631a0139f86c531560a82532964183cff2969b176220484bc5b37fdb1e",
+      "size": 11917396,
+      "url": "https://stellar-releases.ch/stellaros-bluejay-release-2026-10-22-r1/firmware/bootloader.img"
+    },
+    {
+      "sha256": "cc00eeac18982444cc2974e621ab46cd11abe4ebd3496f44c610b9c2104ab4fb",
+      "size": 97702028,
+      "url": "https://stellar-releases.ch/stellaros-bluejay-release-2026-10-22-r1/firmware/radio.img"
+    },
+    {
+      "sha256": "e721b5827fcb1a6496eafd71dcaa669771f3188afc489b7308a7a9f692c54a40",
+      "size": 1032,
+      "url": "https://stellar-releases.ch/stellaros-bluejay-release-2026-10-22-r1/avb_pkmd.bin"
+    },
+    {
+      "sha256": "f70b10cf6aad3abf30a633fdab6dbd5582251b1287e47c1835bbcce5f4be9fca",
+      "size": 4028674725,
+      "url": "https://stellar-releases.ch/stellaros-rango-release-2026-10-22-r1/StellarOS-rango-release-2026-10-22-r1.zip"
+    },
+    {
+      "sha256": "9c1be804812c2f0712a8c6046c90af73e703332061e0e990ef04c5471a3c2a38",
+      "size": 20043164,
+      "url": "https://stellar-releases.ch/stellaros-rango-release-2026-10-22-r1/firmware/bootloader.img"
+    },
+    {
+      "sha256": "fb9dc630e991b58f3ef5180ba33a68c0b3c91eb4568d919da95d221aed4f6f78",
+      "size": 191500428,
+      "url": "https://stellar-releases.ch/stellaros-rango-release-2026-10-22-r1/firmware/radio.img"
+    },
+    {
+      "sha256": "e721b5827fcb1a6496eafd71dcaa669771f3188afc489b7308a7a9f692c54a40",
+      "size": 1032,
+      "url": "https://stellar-releases.ch/stellaros-rango-release-2026-10-22-r1/avb_pkmd.bin"
+    },
+    {
+      "sha256": "3ca7f9e522b57661977dac2fb3d6c0e16aed27b2479e677b5d5439739b394266",
+      "size": 3995972493,
+      "url": "https://stellar-releases.ch/stellaros-blazer-release-2026-10-22-r1/StellarOS-blazer-release-2026-10-22-r1.zip"
+    },
+    {
+      "sha256": "25d6ab09a7c651fabc7b7eff8958b05b69da1949962c4e28e4634c05fbaf19c1",
+      "size": 20043164,
+      "url": "https://stellar-releases.ch/stellaros-blazer-release-2026-10-22-r1/firmware/bootloader.img"
+    },
+    {
+      "sha256": "fb9dc630e991b58f3ef5180ba33a68c0b3c91eb4568d919da95d221aed4f6f78",
+      "size": 191500428,
+      "url": "https://stellar-releases.ch/stellaros-blazer-release-2026-10-22-r1/firmware/radio.img"
+    },
+    {
+      "sha256": "e721b5827fcb1a6496eafd71dcaa669771f3188afc489b7308a7a9f692c54a40",
+      "size": 1032,
+      "url": "https://stellar-releases.ch/stellaros-blazer-release-2026-10-22-r1/avb_pkmd.bin"
+    },
+    {
+      "sha256": "685ef139dee257f91a219bf2ef94870d4c4a9c0f0797ac2e811a6f71a113ea56",
+      "size": 4011881523,
+      "url": "https://stellar-releases.ch/stellaros-frankel-release-2026-10-22-r1/StellarOS-frankel-release-2026-10-22-r1.zip"
+    },
+    {
+      "sha256": "ecf3ac959f64a1a82bbda70eed4382ee3e3a797268a941398d65f7e90c6fb39a",
+      "size": 20043164,
+      "url": "https://stellar-releases.ch/stellaros-frankel-release-2026-10-22-r1/firmware/bootloader.img"
+    },
+    {
+      "sha256": "fb9dc630e991b58f3ef5180ba33a68c0b3c91eb4568d919da95d221aed4f6f78",
+      "size": 191500428,
+      "url": "https://stellar-releases.ch/stellaros-frankel-release-2026-10-22-r1/firmware/radio.img"
+    },
+    {
+      "sha256": "e721b5827fcb1a6496eafd71dcaa669771f3188afc489b7308a7a9f692c54a40",
+      "size": 1032,
+      "url": "https://stellar-releases.ch/stellaros-frankel-release-2026-10-22-r1/avb_pkmd.bin"
+    },
+    {
+      "sha256": "d8f964a0488847a24fb1178b3170425bf0c7cc17505e70908cdc8e83809900a8",
+      "size": 3951090718,
+      "url": "https://stellar-releases.ch/stellaros-comet-release-2026-10-22-r1/StellarOS-comet-release-2026-10-22-r1.zip"
+    },
+    {
+      "sha256": "79b39381a3f4dafc4858728d9c500aa32ce5099317b53247d89fb7f8e984561e",
+      "size": 19265576,
+      "url": "https://stellar-releases.ch/stellaros-comet-release-2026-10-22-r1/firmware/bootloader.img"
+    },
+    {
+      "sha256": "eb256a7362fcb5277f6a71e91798494ab1cc22525598d86c477c8e5d5b73ac51",
+      "size": 136695948,
+      "url": "https://stellar-releases.ch/stellaros-comet-release-2026-10-22-r1/firmware/radio.img"
+    },
+    {
+      "sha256": "e721b5827fcb1a6496eafd71dcaa669771f3188afc489b7308a7a9f692c54a40",
+      "size": 1032,
+      "url": "https://stellar-releases.ch/stellaros-comet-release-2026-10-22-r1/avb_pkmd.bin"
+    },
+    {
+      "sha256": "c550477475921cd5d57626966c59e4fc8d3316a2d0a7c7b802fd14f7e2e03b88",
+      "size": 3710621947,
+      "url": "https://stellar-releases.ch/stellaros-felix-release-2026-10-22-r1/StellarOS-felix-release-2026-10-22-r1.zip"
+    },
+    {
+      "sha256": "ca7e771c283a0a7212ef0e832ae653d0f4733aae71114f6cc05b489ceb5296e6",
+      "size": 14573320,
+      "url": "https://stellar-releases.ch/stellaros-felix-release-2026-10-22-r1/firmware/bootloader.img"
+    },
+    {
+      "sha256": "313c311cc94c3b08de65b6f030e29af93c1bf2c6bff7fe8044f22dbb0296524a",
+      "size": 105955468,
+      "url": "https://stellar-releases.ch/stellaros-felix-release-2026-10-22-r1/firmware/radio.img"
+    },
+    {
+      "sha256": "e721b5827fcb1a6496eafd71dcaa669771f3188afc489b7308a7a9f692c54a40",
+      "size": 1032,
+      "url": "https://stellar-releases.ch/stellaros-felix-release-2026-10-22-r1/avb_pkmd.bin"
+    },
+    {
+      "sha256": "7b1c6043a838a4840345e38e3e194032f7782d88590f13c95cbd700c38729beb",
+      "size": 3611702300,
+      "url": "https://stellar-releases.ch/stellaros-tangorpro-release-2026-10-22-r1/StellarOS-tangorpro-release-2026-10-22-r1.zip"
+    },
+    {
+      "sha256": "b49c139010862b53dbdb9b02db237f38f90f3e724a5380675e7247045cdb72dd",
+      "size": 14503176,
+      "url": "https://stellar-releases.ch/stellaros-tangorpro-release-2026-10-22-r1/firmware/bootloader.img"
+    },
+    {
+      "sha256": "e721b5827fcb1a6496eafd71dcaa669771f3188afc489b7308a7a9f692c54a40",
+      "size": 1032,
+      "url": "https://stellar-releases.ch/stellaros-tangorpro-release-2026-10-22-r1/avb_pkmd.bin"
+    }
+  ],
+  "schema": 1,
+  "site_files": {
+    "app.mjs": {
+      "sha256": "190d991af09c62bea315f857127f5cda3410da521c23a52cbd20fd8864de11c0",
+      "size": 10792
+    },
+    "core.mjs": {
+      "sha256": "61db36a453e2efb5dafbae8be3b059277b56065c6630a16921a37b406a5c0bd4",
+      "size": 3963
+    },
+    "download.mjs": {
+      "sha256": "cf016bb1e934dfa82d73fa89fe9504b040730eb37bc541653d5bd5e2a942e30c",
+      "size": 4143
+    },
+    "index.html": {
+      "sha256": "98a69e23462bb77845ca82f63baaddc0b685501cd38b75f0a3fd6ada6ca293da",
+      "size": 3755
+    },
+    "logo.svg": {
+      "sha256": "41aba56792b2eca027797c90541e22b1b1db734fa0084c1a448ed70ec3e91df2",
+      "size": 656
+    },
+    "releases.json": {
+      "sha256": "bae4e5647a991ddb97c37a627a3b1e628d03efbb9eb46fb29b436ac85112c60a",
+      "size": 30359
+    },
+    "storage.mjs": {
+      "sha256": "7e3d1193549e95ddf3f0acef2a8a79d3f7e692597ac48de37cb5c1d0fa0bf0c6",
+      "size": 2779
+    },
+    "style.css": {
+      "sha256": "ae5a469f15dc7e4442e560033ef872c9bba0b16cd05512868ada5b57c28b9476",
+      "size": 8789
+    }
+  }
+}
